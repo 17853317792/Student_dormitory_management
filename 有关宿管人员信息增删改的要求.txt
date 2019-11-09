@@ -1,0 +1,7 @@
+名字：manager_insert_update_delete
+前端数据：oper(表示操作类型，“del”表示删除，“add”表示添加，“edit”表示修改)，
+	当操作类型为del时，数据为manager_Id，
+	当操作类型为add时，数据为manager_Name（manager_Id为自动生成，注意修改sql语句）
+	当操作类型为edit时，数据为manager_Id，manager_Name
+目的：实现宿管人员信息的增删改操作，根据操作类型不同获取前端数据进行操作。
+结果：返回操作结果，成功为1，假装没有失败。

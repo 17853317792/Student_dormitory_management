@@ -1,0 +1,7 @@
+名字：admin_insert_update_delete
+前端数据：oper(表示操作类型，“del”表示删除，“add”表示添加，“edit”表示修改)，
+	当操作类型为del时，数据为admin_Id
+	当操作类型为add时，数据为admin_Id，（注意检查id是否已存在）admin_Name（admin_Password为初始密码123456）
+	当操作类型为edit时，数据为admin_Id，admin_Name（admin_Password不修改）
+目的：实现管理员信息的增删改操作，根据操作类型不同获取前端数据进行操作。
+结果：返回操作结果，自己想返回什么文字就返回什么。
